@@ -8,6 +8,8 @@
 class Solution:
     def singleNumber(self, n: List[int]) -> int:
         x = 0
-        for k, v in enumerate(n):
+        if not n:
+            return 0
+        for v in n:
             x = x ^ v
         return x
