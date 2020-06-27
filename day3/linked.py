@@ -50,6 +50,20 @@ class linked():
             print(cur.item.item)
             cur = cur.next
 
+    # 翻转链表1->2-3  变成3->2-1
+
+    def reverse(self):
+        cur = self._head
+        pre = None
+        next_node = cur.next
+        while cur:
+            cur.next = pre
+            pre = cur
+            cur = next_node
+            if cur:
+                next_node = cur.next
+        self._head = pre
+
 
 if __name__ == "__main__":
     link = linked()
@@ -57,5 +71,5 @@ if __name__ == "__main__":
     link.append(Node(2))
     link.append(Node(3))
     link.append(Node(4))
-
+    link.reverse()
     link.travel()
