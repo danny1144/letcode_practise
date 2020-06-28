@@ -65,6 +65,17 @@ class linked():
         self._head = pre
 
 
+class Solution:
+    def printListfromlinked(self, link):
+        list = []
+        cur = link._head
+        if cur:
+            while cur:
+                list.append(cur.item)
+                cur = cur.next
+        return list
+
+
 if __name__ == "__main__":
     link = linked()
     link.append(Node(1))
@@ -73,3 +84,5 @@ if __name__ == "__main__":
     link.append(Node(4))
     link.reverse()
     link.travel()
+    sol = Solution()
+    print(sol.printListfromlinked(link))
