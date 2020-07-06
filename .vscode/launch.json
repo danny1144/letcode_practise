@@ -5,14 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - OrderPrint",
+            "request": "launch",
+            "mainClass": "day5.OrderPrint",
+            "projectName": "letcode_practise_93cc372f"
+        },
+        {
             "name": "Python: 当前文件",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
             "env": {
-                "PYTHONPATH":"${workspaceRoot}",
-              },
+                "PYTHONPATH": "${workspaceRoot}"
+            }
         }
     ]
 }

@@ -13,4 +13,10 @@
     ],
     "python.languageServer": "Microsoft",
     "eggHelper.serverPort": 42141,
+    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_191", 
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.fontSize": 14,
+    "files.autoGuessEncoding":true
 }
