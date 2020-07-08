@@ -17,4 +17,4 @@ class Solution:
 
 
 solution = Solution()
-print(solution.find([1, 7, 3, 6, 5, 6]))
+print(solution.find([1, 4, 6, 6, 7, 9, 4, 4]))
