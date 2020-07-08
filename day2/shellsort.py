@@ -1,12 +1,8 @@
 def shellSort(arr):
-
     n = len(arr)
     gap = int(n/2)
-
     while gap > 0:
-
         for i in range(gap, n):
-
             temp = arr[i]
             j = i
             while j >= gap and arr[j-gap] > temp:
@@ -28,4 +24,3 @@ shellSort(arr)
 print("\n排序后:")
 for i in range(n):
     print(arr[i]),
- 
