@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "H:\\server\\miniconda3\\envs\\leetcode\\python.exe",
+    "python.pythonPath": "D:\\server\\miniconda\\envs\\letcode\\python.exe",
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "autopep8",
     "python.linting.flake8Args": [
