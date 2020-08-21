@@ -18,5 +18,6 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "java.configuration.checkProjectSettingsExclusions": false,
     "editor.fontSize": 14,
-    "files.autoGuessEncoding":true
+    "files.autoGuessEncoding": true,
+    "python.analysis.completeFunctionParens": true
 }
